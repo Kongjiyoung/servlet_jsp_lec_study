@@ -33,7 +33,7 @@ public class JoinFormServlet extends HttpServlet { //프로토콜을 알기 위�
 
                 html = html+"    <hr>\n" +
                 "    <form action=\"/join\" method=\"post\">\n" +
-                "        <input type=\"text\" placeholder=\"username\" name=\"username\">\n" +
+                "        <input type=\"text\" placeholder=\"username\" name=\"username\">\n" + //name이 있어야 키값이 날아간다.
                 "        <input type=\"text\" placeholder=\"password\" name=\"password\">\n" +
                 "        <input type=\"text\" placeholder=\"email\" name=\"email\">\n" +
                 "        <button>회원가입</button>\n" +
