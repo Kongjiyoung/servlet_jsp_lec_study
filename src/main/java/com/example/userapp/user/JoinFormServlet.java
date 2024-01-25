@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.time.LocalDateTime;
 
-@WebServlet("/join-Form")
+//@WebServlet("/join-Form")
 public class JoinFormServlet extends HttpServlet { //프로토콜을 알기 위해서
 
 
